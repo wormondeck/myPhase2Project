@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const Cars = () => {
-    const [cars, setCars] = useState([])
+    
     return (
-
+        <div></div>
     );
 }
 
