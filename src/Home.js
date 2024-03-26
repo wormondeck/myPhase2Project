@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Cars from './Cars';
 import NavBar from './NavBar'
+import CarCard from './CarCard';
 
 const Home = () => {
     const [cars, setCars] = useState([]);
@@ -13,7 +13,7 @@ const Home = () => {
     }, [])
 
     const carList = cars.map(car =>{
-        return <Cars key={car.id} car={car}/>
+        return <CarCard key={car.id} car={car} />
     })
     
     return (

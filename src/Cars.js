@@ -1,13 +1,16 @@
 import React from 'react';
 
-const Cars = ({car}) => {
-    return (
-        <div>
-          <header>
-          {/* Save space for NavBar */}
-          </header>
+import NavBar from './NavBar';
 
-        </div>
+const Cars = () => {
+    return (
+        <>
+          <header>
+            <NavBar />
+          </header>
+          <h1>Custom Wheels Available Upon Request</h1>
+
+        </>
     );
 }
 

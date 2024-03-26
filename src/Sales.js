@@ -1,10 +1,11 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Sales = () => {
     return (
         <div>
             <header>
-                {/* Save space for NavBar */}
+                <NavBar />
             </header>
             <main>
               <h1>Financing Options Now Available On All Vehicles.</h1>
