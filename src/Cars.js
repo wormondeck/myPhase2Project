@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Cars = () => {
-    
+const Cars = ({car}) => {
     return (
-        <div></div>
+        <div>
+          <header>
+          {/* Save space for NavBar */}
+          </header>
+
+        </div>
     );
 }
 
