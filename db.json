@@ -1,12 +1,12 @@
 {
-    "cars": [
+    "vehicles": [
         {
             "id": 1,
             "name": "Lamborghini Miura",
             "color": "Blue",
             "year": "1971",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0717.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0717.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "color": "Gray",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0718.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0718.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "color": "Blue",
             "year": "2022",
             "brand": "Matchbox",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0719.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0719.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "color": "White",
             "year": "2022",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0720.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0720.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "color": "Blue",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0721.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0721.jpg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "color": "Red",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0722.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0722.jpg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "color": "Green",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0723.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0723.jpg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "color": "Gold",
             "year": "2015",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0724.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0724.jpg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "color": "Yellow",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0725.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0725.jpg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "color": "Black",
             "year": "2012",
             "brand": "Matchbox",
-            "image": "/Users/ronneyarias/My Code/files/myphase1project/IMG_0726.jpg"
+            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0726.jpg"
         }
     ]
 }

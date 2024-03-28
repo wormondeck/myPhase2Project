@@ -19,10 +19,10 @@ const NavBar = () => {
       </NavLink>
       <br/>
       <NavLink
-        to="/cars"
+        to="/CarInfo"
         className="App-link"
       >
-        Cars
+        CarInfo
       </NavLink>
     </nav>
   )

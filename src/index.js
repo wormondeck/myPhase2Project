@@ -4,24 +4,27 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Home';
 import Sales from './Sales';
-import Cars from './Cars';
+import CarInfo from './CarInfo';
+import ErrorPage from './ErrorPage';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Home />,
+    errorElement: <ErrorPage />
   },
   {
     path: "/sales",
-    element: <Sales />
+    element: <Sales />,
+    errorElement: <ErrorPage />
   },
   {
-    path: "/cars",
-    element: <Cars />
-
+    path: "/CarInfo/:id",
+    element: <CarInfo />,
+    errorElement: <ErrorPage />
   }
-])
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
