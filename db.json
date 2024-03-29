@@ -6,7 +6,7 @@
             "color": "Blue",
             "year": "1971",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0717.jpg"
+            "image": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/x1aU-1-NERL3//031.jpg?maxwidth=1600&maxheight=1600"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "color": "Gray",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0718.jpg"
+            "image": "https://www.motortrend.com/uploads/2022/11/2023-Tesla-Model-Y-12.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "color": "Blue",
             "year": "2022",
             "brand": "Matchbox",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0719.jpg"
+            "image": "https://media.ed.edmunds-media.com/karma/gs-6/2021/oem/2021_karma_gs-6_sedan_base_fq_oem_1_1600.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "color": "White",
             "year": "2022",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0720.jpg"
+            "image": "https://www.westcoastexoticcars.com/imagetag/831/main/l/Used-2020-Porsche-718-Cayman-GT4-Manual-1627411719.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "color": "Blue",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0721.jpg"
+            "image": "https://hips.hearstapps.com/hmg-prod/images/2024-lotus-emira-118-654bb25960b1b.jpg?crop=0.574xw:0.430xh;0.292xw,0.541xh&resize=1200:*"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "color": "Red",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0722.jpg"
+            "image": "https://hips.hearstapps.com/hmg-prod/images/2022-audi-rs-e-tron-gt-105-1637247546.jpg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "color": "Green",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0723.jpg"
+            "image": "https://www.motortrend.com/uploads/sites/5/2021/03/2021-Lamborghini-Sian-47.jpg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "color": "Gold",
             "year": "2015",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0724.jpg"
+            "image": "https://d29u9xh7o1d7j0.cloudfront.net/wp-content/uploads/2021/09/G82_M4_Comp_1b.jpeg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "color": "Yellow",
             "year": "2021",
             "brand": "Hot Wheels",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0725.jpg"
+            "image": "https://www.motortrend.com/uploads/sites/5/2020/09/Nissan-Z-Prototype-49.jpg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "color": "Black",
             "year": "2012",
             "brand": "Matchbox",
-            "image": "/Users/ronneyarias/Development/my-phase2-project/src/IMG_0726.jpg"
+            "image": "https://www.greencarguide.co.uk/wp-content/uploads/2020/09/BMW-330e-Touring-001-low-res.jpeg"
         }
     ]
 }

@@ -1,33 +1,24 @@
-import React from 'react';
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import NavBar from './NavBar';
+import React from "react";
+import { useParams, useOutletContext } from "react-router-dom";
 
 const CarInfo = () => {
-  const [car, setCar] = useState({});
   const params = useParams();
-  const carId = params.id;
+  const cars = useOutletContext();
+  
+  const car = cars.find(car => car.id === parseInt(params.id));
+  
+ 
 
-  useEffect(() =>{
-    fetch(`http://localhost:3000/vehicles/${carId}`)
-    .then(r => r.json())
-    .then(data => setCar(data))
-    .catch(error => console.error(error))
-  }, [carId])
-
-  if (!car.name) {
+  if (!car) {
     return <h1>Loading...</h1>
   }
-
+  console.log("Image URL:", car.image);
     return (
-        <>
-          <header>
-            <NavBar />
-          </header>
-          <main>
+          <aside>
             <h1>{car.name}</h1>
-          </main>
-        </>
+            <img src={car.image} alt={car.name}/>
+          </aside>
+  
     );
 
 }

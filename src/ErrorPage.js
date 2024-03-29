@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 import { useRouteError } from "react-router-dom";
 
 const ErrorPage = () => {
@@ -7,11 +6,8 @@ const ErrorPage = () => {
 
     return (
         <>
-          <header>
-            <NavBar />
-          </header>
           <main>
-            <h1>Whoops! Check engine light, something went wrong!</h1>
+            <h1>Whoops! Check engine light On, something went wrong!</h1>
           </main>
         </>
     );
