@@ -7,17 +7,16 @@ const CarInfo = () => {
   
   const car = cars.find(car => car.id === parseInt(params.id));
   
- 
-
   if (!car) {
     return <h1>Loading...</h1>
   }
-  console.log("Image URL:", car.image);
+  
     return (
-          <aside>
-            <h1>{car.name}</h1>
-            <img src={car.image} alt={car.name}/>
-          </aside>
+      <div>
+            <h1 className="car-name">{car.name} | ${car.price}</h1>
+            <img src={car.image} alt={car.name} />
+            <p className="car-info">{car.info}</p>
+      </div>
   
     );
 

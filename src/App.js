@@ -1,7 +1,8 @@
-import React from 'react';
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import { Outlet } from "react-router-dom";
 import NavBar from "./NavBar";
+import Inventory from './Inventory';
+
 
 function App() {
     const [cars, setCars] = useState([]);
@@ -13,12 +14,17 @@ function App() {
         .catch(error => console.error(error))
     }, [])
 
+    function handleAddCar(newCar) {
+        setCars([...cars, newCar])
+      }
+
     return(
         <>
             <header>
                 <NavBar />
             </header>
-            <Outlet context={cars}/>
+            <Inventory onHandleAddCar={handleAddCar} />
+            <Outlet context={cars} />
         </>
     );
 };

@@ -1,84 +1,92 @@
 {
-    "vehicles": [
-        {
-            "id": 1,
-            "name": "Lamborghini Miura",
-            "color": "Blue",
-            "year": "1971",
-            "brand": "Hot Wheels",
-            "image": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/x1aU-1-NERL3//031.jpg?maxwidth=1600&maxheight=1600"
-        },
-        {
-            "id": 2,
-            "name": "Tesla Model Y",
-            "color": "Gray",
-            "year": "2021",
-            "brand": "Hot Wheels",
-            "image": "https://www.motortrend.com/uploads/2022/11/2023-Tesla-Model-Y-12.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Karma GS-6",
-            "color": "Blue",
-            "year": "2022",
-            "brand": "Matchbox",
-            "image": "https://media.ed.edmunds-media.com/karma/gs-6/2021/oem/2021_karma_gs-6_sedan_base_fq_oem_1_1600.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Porsche 718 Cayman GT4",
-            "color": "White",
-            "year": "2022",
-            "brand": "Hot Wheels",
-            "image": "https://www.westcoastexoticcars.com/imagetag/831/main/l/Used-2020-Porsche-718-Cayman-GT4-Manual-1627411719.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Lotus Emira",
-            "color": "Blue",
-            "year": "2021",
-            "brand": "Hot Wheels",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/2024-lotus-emira-118-654bb25960b1b.jpg?crop=0.574xw:0.430xh;0.292xw,0.541xh&resize=1200:*"
-        },
-        {
-            "id": 6,
-            "name": "Audi RS E-Tron GT",
-            "color": "Red",
-            "year": "2021",
-            "brand": "Hot Wheels",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/2022-audi-rs-e-tron-gt-105-1637247546.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Lamborghini Sian FKP 37",
-            "color": "Green",
-            "year": "2021",
-            "brand": "Hot Wheels",
-            "image": "https://www.motortrend.com/uploads/sites/5/2021/03/2021-Lamborghini-Sian-47.jpg"
-        },
-        {
-            "id": 8,
-            "name": "BMW M4",
-            "color": "Gold",
-            "year": "2015",
-            "brand": "Hot Wheels",
-            "image": "https://d29u9xh7o1d7j0.cloudfront.net/wp-content/uploads/2021/09/G82_M4_Comp_1b.jpeg"
-        },
-        {
-            "id": 9,
-            "name": "Nissan Z Proto",
-            "color": "Yellow",
-            "year": "2021",
-            "brand": "Hot Wheels",
-            "image": "https://www.motortrend.com/uploads/sites/5/2020/09/Nissan-Z-Prototype-49.jpg"
-        },
-        {
-            "id": 10,
-            "name": "BMW 3 Series Touring",
-            "color": "Black",
-            "year": "2012",
-            "brand": "Matchbox",
-            "image": "https://www.greencarguide.co.uk/wp-content/uploads/2020/09/BMW-330e-Touring-001-low-res.jpeg"
-        }
-    ]
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Lamborghini Miura",
+      "color": "yellow",
+      "price": "127,467.00",
+      "image": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/x1aU-1-NERL3//031.jpg?maxwidth=1600&maxheight=1600",
+      "info": "The Lamborghini Miura is widely considered to be the world's first supercar. Launched in 1966, the Miura revolutionized the automotive world with its mid-engine layout, sleek design, and powerful performance. Its V12 engine, designed by Giotto Bizzarrini, was mounted transversely behind the driver and passenger seats, setting a new standard for high-performance sports cars. The Miura's stunning looks and exceptional performance made it an instant icon, and it continues to be celebrated among car enthusiasts and collectors today."
+    },
+    {
+      "id": 2,
+      "name": "Tesla Model Y",
+      "color": "white",
+      "price": "35,867.00",
+      "image": "https://www.motortrend.com/uploads/2022/11/2023-Tesla-Model-Y-12.jpg",
+      "info": "Thw Tesla Model Y shares about 75% of its components with the Tesla Model 3 sedan. This includes parts like the electric motors, battery packs, and many other components. This design strategy helps Tesla streamline production and reduce costs, ultimately benefiting consumers. Additionally, the Model Y has an impressive range and acceleration, making it a popular choice among electric vehicle enthusiasts."
+    },
+    {
+      "id": 3,
+      "name": "Karma GS-6",
+      "color": "white",
+      "price": "57,597",
+      "image": "https://media.ed.edmunds-media.com/karma/gs-6/2021/oem/2021_karma_gs-6_sedan_base_fq_oem_1_1600.jpg",
+      "info": "The Karma GS-6 is a luxury electric vehicle produced by Karma Automotive, formerly known as Fisker Automotive. The GS-6 is part of the Revero series, which includes plug-in hybrid and all-electric models. One interesting feature of the GS-6 is its solar roof, which is designed to help recharge the vehicle's battery and increase its overall efficiency. This innovative technology sets the Karma GS-6 apart from many other electric vehicles on the market."
+    },
+    {
+      "id": 4,
+      "name": "Porsche 718 Cayman GT4",
+      "color": "white",
+      "price": "147,525.00",
+      "image": "https://www.westcoastexoticcars.com/imagetag/831/main/l/Used-2020-Porsche-718-Cayman-GT4-Manual-1627411719.jpg",
+      "info": "The Porsche 718 Cayman GT4 is designed to offer an exceptional driving experience on both the road and the track. One standout feature is its naturally aspirated 4.0-liter flat-six engine, which produces an exhilarating sound and delivers impressive performance. The GT4 also boasts a lightweight construction, precise handling, and aerodynamic enhancements derived from motorsport technology. As a result, driving enthusiasts often praise the Porsche 718 Cayman GT4 for its agility, responsiveness, and overall driving dynamics."
+    },
+    {
+      "id": 5,
+      "name": "Lotus Emira",
+      "color": "gray",
+      "price": "47,900.15",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2024-lotus-emira-118-654bb25960b1b.jpg?crop=0.574xw:0.430xh;0.292xw,0.541xh&resize=1200:*",
+      "info": "The Lotus Emira represents a significant milestone for Lotus as it marks the end of an era for the company. The Emira is the last Lotus to be powered by an internal combustion engine, as the company transitions to producing only electric vehicles (EVs) in the future. Despite this, the Emira still embodies Lotus' commitment to lightweight construction and exceptional handling, making it a worthy successor to the brand's iconic lineup of sports cars. Its sleek design, advanced aerodynamics, and high-performance capabilities have garnered considerable excitement among automotive enthusiasts awaiting its release."
+    },
+    {
+      "id": 6,
+      "name": "Audi RS E-Tron GT",
+      "color": "gray",
+      "price": "147,900.59",
+      "image": "https://cdn.motor1.com/images/mgl/KNqRb/s3/audi-e-tron-gt-quattro.jpg",
+      "info": "The Audi RS e-tron GT represents Audi's foray into the high-performance electric vehicle (EV) market. It shares its platform with the Porsche Taycan, another high-performance EV, which highlights the collaborative efforts within the Volkswagen Group to develop cutting-edge electric technology. The RS e-tron GT combines Audi's renowned craftsmanship and design with state-of-the-art electric powertrain technology, resulting in a vehicle that offers exhilarating performance, instant torque delivery, and zero emissions. Its luxurious interior, advanced driver-assistance systems, and impressive range further solidify its position as a top contender in the luxury EV segment."
+    },
+    {
+      "id": 7,
+      "name": "Lamborghini Sian FKP 37",
+      "color": "green",
+      "price": "3,627,467.23",
+      "image": "https://www.motortrend.com/uploads/sites/5/2021/03/2021-Lamborghini-Sian-47.jpg",
+      "info": "The Lamborghini Sian FKP 37 is the first hybrid production car ever produced by Lamborghini. The 'FKP 37' in its name is a tribute to Ferdinand Karl Piëch, the former chairman of the Volkswagen Group and grandson of Ferdinand Porsche. Piëch played a significant role in the development of Lamborghini during his tenure. The Sian features a unique hybrid powertrain, combining a V12 engine with a 48-volt electric motor, which provides additional power and improves acceleration. With its striking design, cutting-edge technology, and limited production run, the Lamborghini Sian FKP 37 represents a significant milestone in the evolution of Lamborghini's supercars."
+    },
+    {
+      "id": 8,
+      "name": "BMW M4",
+      "color": "green",
+      "price": "59,157.48",
+      "image": "https://d29u9xh7o1d7j0.cloudfront.net/wp-content/uploads/2021/09/G82_M4_Comp_1b.jpeg",
+      "info": "The BMW M4 has a unique engine sound enhancement feature called Active Sound Design. This technology uses the car's audio system to enhance the engine noise inside the cabin, providing a more immersive driving experience. The system amplifies the engine's natural sound, enhancing the auditory feedback for the driver without affecting the actual exhaust note. This feature allows drivers to enjoy the exhilarating sound of the M4's powerful engine even more, adding to the overall excitement of driving this high-performance sports car."
+    },
+    {
+      "id": 9,
+      "name": "Nissan Z Proto",
+      "color": "yellow",
+      "price": "73,300.02",
+      "image": "https://www.motortrend.com/uploads/sites/5/2020/09/Nissan-Z-Prototype-49.jpg",
+      "info": "The Nissan Z Proto pays homage to Nissan's rich heritage of iconic sports cars, particularly the Z car lineage that began with the Datsun 240Z in the 1970s. The Z Proto's design incorporates styling cues from classic Z cars, such as the distinctive silhouette, long hood, and teardrop-shaped headlights. Additionally, the interior features modern touches like a digital instrument cluster and a large touchscreen infotainment system, blending retro charm with contemporary technology. This fusion of past and present elements makes the Nissan Z Proto not only a tribute to the brand's heritage but also a glimpse into the future of Nissan's sports car lineup."
+    },
+    {
+      "id": 10,
+      "name": "BMW 3 Series Touring",
+      "color": "blue",
+      "price": "97,456.89",
+      "image": "https://www.greencarguide.co.uk/wp-content/uploads/2020/09/BMW-330e-Touring-001-low-res.jpeg",
+      "info": "The BMW 3 Series Touring is renowned for its versatility and practicality while still delivering a dynamic driving experience typical of BMW's 3 Series lineup. One interesting feature of the Touring model is its spacious cargo area, which offers ample room for luggage, groceries, or other cargo, making it ideal for families or individuals with active lifestyles. Despite its practicality, the 3 Series Touring doesn't compromise on performance, with options for powerful engines and advanced handling technologies that ensure an engaging driving experience on the road. This combination of functionality and driving pleasure has made the BMW 3 Series Touring a popular choice among luxury wagon enthusiasts."
+    },
+    {
+      "id": 11,
+      "name": "Bugatti Veyron",
+      "color": "black",
+      "price": "3,200,000.00",
+      "image": "https://cdn.luxe.digital/media/2020/06/09142523/bugatti-price-reviews-expensive-supercar-luxe-digital.jpg",
+      "info": "The Bugatti Veyron was once considered the fastest production car in the world. Its remarkable speed capabilities were a result of its unprecedented engineering and design. The original Veyron, introduced in 2005, boasted a quad-turbocharged 8.0-liter W16 engine that produced over 1,000 horsepower. This immense power enabled the Veyron to achieve a top speed of over 250 miles per hour (402 kilometers per hour), setting new records for production cars at the time. Additionally, the Veyron's advanced aerodynamics and cutting-edge technology contributed to its incredible performance and unmatched status in the automotive world."
+    }
+  ]
 }

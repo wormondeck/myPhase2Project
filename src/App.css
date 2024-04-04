@@ -1,9 +1,9 @@
 .App-link {
   display: inline-block;
-    box-sizing: border-box;
-    width: 60px;
-    padding: 5px;
-    background: blue;
+  box-sizing: border-box;
+  width: 60px;
+  padding: 5px;
+  /* background: blue; */
   color: #547e89;
   font-size: min(10vw, 15px);
   margin: 0 6px 6px;
@@ -17,10 +17,21 @@
 }
 
 img {
-  
     float: right;
     width:  50%;
     height: 50%;
-    object-fit: cover;
-
+    padding: 2%
 }
+
+.car-name {
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
+
+.car-info {
+float: right;
+width: 200px;
+padding-top: 2%;
+}
+

@@ -3,15 +3,15 @@ import CarCard from './CarCard';
 
 const Home = () => {
     const cars = useOutletContext();
-    const carList = cars.map(car => <CarCard key={car.id} car={car} />);
+    const carList = cars.map(car => <CarCard key={car.id} car={car}/>);
     
     return (
-            <main>
-              <h1>27.99% msrp</h1>
-             <hr/>
-              <Outlet context={cars}/>
-              {carList}
-            </main>
+      <main>
+        <h1>ShowRoom</h1>
+        <hr/>
+        <Outlet context={cars} />
+        {carList} 
+      </main>
     );
 }
 
