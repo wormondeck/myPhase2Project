@@ -84,9 +84,17 @@
       "id": 11,
       "name": "Bugatti Veyron",
       "color": "black",
-      "price": "3,200,000.00",
+      "price": "3,200,000",
       "image": "https://cdn.luxe.digital/media/2020/06/09142523/bugatti-price-reviews-expensive-supercar-luxe-digital.jpg",
       "info": "The Bugatti Veyron was once considered the fastest production car in the world. Its remarkable speed capabilities were a result of its unprecedented engineering and design. The original Veyron, introduced in 2005, boasted a quad-turbocharged 8.0-liter W16 engine that produced over 1,000 horsepower. This immense power enabled the Veyron to achieve a top speed of over 250 miles per hour (402 kilometers per hour), setting new records for production cars at the time. Additionally, the Veyron's advanced aerodynamics and cutting-edge technology contributed to its incredible performance and unmatched status in the automotive world."
+    },
+    {
+      "id": 12,
+      "name": "Ferrari 458",
+      "color": "red",
+      "price": "309,180",
+      "image": "https://www.womenonwheels.co.za/wp-content/uploads/bulletproof-ferrari-458-speciale-by-addarmor-front-view.jpg",
+      "info": "The Ferrari 458 was hailed as one of the best-handling and most engaging mid-engine supercars of its time. The 458 Italia, introduced in 2009, was praised for its precise steering, excellent balance, and responsive handling characteristics. One standout feature of the 458 is its innovative electronic differential, known as the E-Diff, which helps optimize traction and stability during cornering. Additionally, the 458's 4.5-liter V8 engine produces a thrilling exhaust note, further enhancing the driving experience. Overall, the Ferrari 458 earned widespread acclaim from enthusiasts and critics alike for its combination of performance, handling, and styling, cementing its status as a modern classic in the Ferrari lineup."
     }
   ]
 }
