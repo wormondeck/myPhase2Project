@@ -6,7 +6,7 @@ import Inventory from './Inventory';
 
 function App() {
     const [cars, setCars] = useState([]);
-
+    
     useEffect(() =>{
         fetch("http://localhost:3000/vehicles")
         .then(r => r.json())
