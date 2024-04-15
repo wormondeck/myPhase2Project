@@ -39,7 +39,7 @@ This will install dependencies and start the development server.
 
 To add a new car to the collection, follow these steps:
 
-1. Fill out the form with details about the car (e.g., make, model, year, image URL).
+1. Fill out the form with details about the car (e.g., name, color, price, image URL).
 2. Submit the form.
 3. The new car will be added to the collection and displayed in the app.
 

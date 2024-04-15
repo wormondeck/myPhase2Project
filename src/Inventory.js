@@ -43,45 +43,43 @@ const Inventory = ({ onHandleAddCar }) => {
         })
         .catch((error) => console.error(error)); 
     };
-
     
-        const highlightStyle = {
-          backgroundColor: 'yellow',
-          
-        };
+  const highlightStyle = {
+    backgroundColor: 'yellow',
+  };
     
-    return (
-        <div>
-          <h1 style={highlightStyle}>Our Inventory Updates Daily!</h1>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                value={name}
-                placeholder='Name'
-                onChange={handNameChange}
-              />
-              <input
-                type="text"
-                value={color}
-                placeholder='Color'
-                onChange={handColorChange}
-              />
-              <input
-                type="text"
-                value={price}
-                placeholder='Price'
-                onChange={handPriceChange}
-              />
-              <input
-                type="text"
-                value={image}
-                placeholder='Image'
-                onChange={handImageChange}
-              />
-              <button type="submit">Add Car</button>
-            </form>
-        </div>
-    )
+  return (
+    <div>
+      <h1 style={highlightStyle}>Our Inventory Updates Daily!</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={name}
+            placeholder='Name'
+            onChange={handNameChange}
+          />
+          <input
+            type="text"
+            value={color}
+            placeholder='Color'
+            onChange={handColorChange}
+          />
+          <input
+            type="text"
+            value={price}
+            placeholder='Price'
+            onChange={handPriceChange}
+          />
+          <input
+            type="text"
+            value={image}
+            placeholder='Image'
+            onChange={handImageChange}
+          />
+          <button type="submit">Add Car</button>
+        </form>
+    </div>
+  )
 }
 
 export default Inventory;

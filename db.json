@@ -95,6 +95,14 @@
       "price": "309,180",
       "image": "https://www.womenonwheels.co.za/wp-content/uploads/bulletproof-ferrari-458-speciale-by-addarmor-front-view.jpg",
       "info": "The Ferrari 458 was hailed as one of the best-handling and most engaging mid-engine supercars of its time. The 458 Italia, introduced in 2009, was praised for its precise steering, excellent balance, and responsive handling characteristics. One standout feature of the 458 is its innovative electronic differential, known as the E-Diff, which helps optimize traction and stability during cornering. Additionally, the 458's 4.5-liter V8 engine produces a thrilling exhaust note, further enhancing the driving experience. Overall, the Ferrari 458 earned widespread acclaim from enthusiasts and critics alike for its combination of performance, handling, and styling, cementing its status as a modern classic in the Ferrari lineup."
+    },
+    {
+      "id": "13",
+      "name": "Honda Civic Type-R",
+      "color": "Blue",
+      "price": "35,700.00",
+      "image": "https://www.motortrend.com/uploads/sites/5/2019/10/2018-Honda-Civic-Type-R.jpg",
+      "info": "The Honda Civic Type-R has set a lap record for front-wheel-drive production cars at the Nürburgring Nordschleife track in Germany. With a time of 7 minutes and 43.8 seconds, it showcased the impressive performance capabilities of this hot hatchback."
     }
   ]
 }
