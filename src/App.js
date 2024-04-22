@@ -5,7 +5,8 @@ import Inventory from './Inventory';
 
 function App() {
   const [cars, setCars] = useState([]);
-
+  const [color, setColor] = useState('All')
+  
     useEffect(() =>{
       fetch("http://localhost:3000/vehicles")
       .then(r => r.json())
@@ -17,13 +18,30 @@ function App() {
         setCars([...cars, newCar])
       }
 
-    return(
+    function handleColor(e) {
+      setColor(e.target.value)
+    }
+
+    let filteredCars = cars.filter(car => {
+      if (color === "All") return true
+      return car.color === color
+    })
+    
+    return (
       <>
         <header>
           <NavBar />
         </header>
           <Inventory onHandleAddCar={handleAddCar} />
-          <Outlet context={cars} />
+          <select onChange={handleColor} name="filter">
+            <option value="All">Filter By Color</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="white">White</option>
+            <option value="red">Red</option>
+          </select>
+          <Outlet context={filteredCars} />
       </>
     );
 };

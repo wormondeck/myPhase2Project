@@ -10,6 +10,18 @@ const NavBar = () => {
       >
         Main
       </NavLink>
+      <NavLink
+        to="/about"
+        className="App-link"
+      >
+        About
+      </NavLink>
+      <NavLink
+        to="/contact"
+        className="App-link"
+      >
+        Contact
+      </NavLink>
     </nav>
   )
 }

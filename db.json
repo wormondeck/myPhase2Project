@@ -27,7 +27,7 @@
     {
       "id": "4",
       "name": "Porsche 718 Cayman GT4",
-      "color": "white",
+      "color": "yellow",
       "price": "147,525.00",
       "image": "https://www.westcoastexoticcars.com/imagetag/831/main/l/Used-2020-Porsche-718-Cayman-GT4-Manual-1627411719.jpg",
       "info": "The Porsche 718 Cayman GT4 is designed to offer an exceptional driving experience on both the road and the track. One standout feature is its naturally aspirated 4.0-liter flat-six engine, which produces an exhilarating sound and delivers impressive performance. The GT4 also boasts a lightweight construction, precise handling, and aerodynamic enhancements derived from motorsport technology. As a result, driving enthusiasts often praise the Porsche 718 Cayman GT4 for its agility, responsiveness, and overall driving dynamics."
@@ -103,6 +103,14 @@
       "price": "35,700.00",
       "image": "https://www.motortrend.com/uploads/sites/5/2019/10/2018-Honda-Civic-Type-R.jpg",
       "info": "The Honda Civic Type-R has set a lap record for front-wheel-drive production cars at the Nürburgring Nordschleife track in Germany. With a time of 7 minutes and 43.8 seconds, it showcased the impressive performance capabilities of this hot hatchback."
+    },
+    {
+      "id": "14",
+      "name": "Rolls Royce Cullinan",
+      "color": "black",
+      "price": "349,880.00",
+      "image": "https://jordantimes.com/sites/default/files/styles/news_inner/public/rolls-royce_cullinan_539.png?itok=uzHVS0OR",
+      "info": "The Cullinan is named after the largest diamond ever discovered, the Cullinan Diamond, which weighed over 3,100 carats when it was unearthed in South Africa in 1905. This naming choice reflects Rolls-Royce's commitment to luxury, elegance, and the idea of rarity and exclusivity, as the Cullinan Diamond is one of the most famous and valuable gemstones in the world."
     }
   ]
 }

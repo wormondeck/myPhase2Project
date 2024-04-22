@@ -3,9 +3,9 @@ import { useParams, useOutletContext } from "react-router-dom";
 
 const CarInfo = () => {
   const params = useParams();
-  const cars = useOutletContext();
+  const filteredCars = useOutletContext();
 
-  const car = cars.find(car => car.id === params.id);
+  const car = filteredCars.find(car => car.id === params.id);
  
   if (!car) {
     return <h1>Loading...</h1>
