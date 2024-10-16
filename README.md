@@ -22,6 +22,8 @@ To run the app, follow these steps:
 
 1. Start the JSON server:
 
+json-server --watch db.json
+
 This command will start the JSON server and watch the `db.json` file for changes.
 
 2. Start the React app:

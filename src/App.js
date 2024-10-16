@@ -5,27 +5,27 @@ import Inventory from './Inventory';
 
 function App() {
   const [cars, setCars] = useState([]);
-  const [color, setColor] = useState('All')
+  const [selectedColor, setSelectedColor] = useState('All')
   
-    useEffect(() =>{
-      fetch("http://localhost:3000/vehicles")
-      .then(r => r.json())
-      .then(data => setCars(data))
-      .catch(error => console.error(error))
-    }, [])
-
-    function handleAddCar(newCar) {
-        setCars([...cars, newCar])
-      }
-
-    function handleColor(e) {
-      setColor(e.target.value)
-    }
-
-    let filteredCars = cars.filter(car => {
-      if (color === "All") return true
-      return car.color === color
-    })
+  useEffect(() =>{
+    fetch("http://localhost:3000/vehicles")
+    .then(r => r.json())
+    .then(data => setCars(data))
+    .catch(error => console.error(error))
+  }, [])
+  
+  function handleAddCar(newCar) {
+    setCars([...cars, newCar]);
+  } 
+  
+  function handleColor(e) {
+    setSelectedColor(e.target.value)
+  }
+  
+  let filteredCars = cars.filter(car => {
+    if (selectedColor === "All") return true
+    return car.color === selectedColor
+  })
     
     return (
       <>

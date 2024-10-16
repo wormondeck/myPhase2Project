@@ -6,8 +6,6 @@ const Inventory = ({ onHandleAddCar }) => {
     const [price, setPrice] = useState('');
     const [image, setImage] = useState('');
 
-
-
     const handNameChange = (e) => {
         setName(e.target.value)
     }
@@ -40,8 +38,8 @@ const Inventory = ({ onHandleAddCar }) => {
             body: JSON.stringify(carListing),
         })
         .then((r) => r.json())
-        .then((newCarData) => {
-            onHandleAddCar(newCarData)
+        .then((newCar) => {
+            onHandleAddCar(newCar)
         })
         .catch((error) => console.error(error)); 
         
@@ -52,13 +50,15 @@ const Inventory = ({ onHandleAddCar }) => {
     };
     
   const highlightStyle = {
-    backgroundColor: 'yellow',
+    backgroundColor: 'teal',
   };
+
+  const textColor = 'yellow'
     
   return (
     <div>
       <h1>The No Name Dealership</h1>
-      <h3 style={highlightStyle}>Our Inventory Updates Daily!</h3>
+      <h3 style={{...highlightStyle, color: textColor}}>Our Inventory Updates Daily!</h3>
         <form onSubmit={handleSubmit}>
           <input
             type="text"

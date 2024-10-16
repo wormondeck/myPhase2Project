@@ -8,7 +8,7 @@ const NavBar = () => {
         to="/"
         className="App-link"
       >
-        Main
+        Home
       </NavLink>
       <NavLink
         to="/about"

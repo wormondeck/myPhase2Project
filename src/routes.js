@@ -24,13 +24,13 @@ const routes = [
     ]
   },
   {
-    path: "/about", // About route
+    path: "/about",
     element: <About />
   },
   {
-    path: "/contact", // Contact route
+    path: "/contact",
     element: <Contact />
-  }  
+  },  
 ];
 
 export default routes;

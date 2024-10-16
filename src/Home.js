@@ -1,10 +1,10 @@
-import { Outlet, useOutletContext } from 'react-router-dom';
+import {  Outlet, useOutletContext } from 'react-router-dom';
 import CarCard from './CarCard';
 
-const Home = () => {
-    const cars = useOutletContext();
+function Home() {
+    const cars = useOutletContext();    
     const carList = cars.map(car => <CarCard key={car.id} car={car}/>);
-    
+  
     return (
       <main>
         <h1>ShowRoom</h1>
